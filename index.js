@@ -7,7 +7,7 @@ const fruitInput = document.querySelector(".inputFruit");
 const addFruitButton = document.querySelector(".addFruitButton");
 theMessageButton.addEventListener("click", function () {
   myMessage.innerText = inputBox.value;
-});
+}); 
 
 ClearMessageButton.addEventListener("click", function () {
   myMessage.innerText = "";
